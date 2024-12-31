@@ -2,6 +2,7 @@
 Cài đặt cmake trong hệ thống: https://cmake.org/download/
 
 Chạy app:
+
 Bước 1. clone repo
 
 ```
@@ -9,6 +10,7 @@ git clone https://github.com/AnshumanSrivastava108/Real-Time-Drowsiness-Detectio
 ```
 
 Bước 2. Tạo môi trường ảo
+
 Tải và cài đặt virtualenv.
 
 ```
@@ -22,6 +24,7 @@ Tạo môi trường ảo trong Python 3.
 ```
 
 Kích hoạt môi trường ảo.
+
 Đối với Windows:
 
 ```
