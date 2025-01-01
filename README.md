@@ -11,16 +11,8 @@ git clone https://github.com/AnshumanSrivastava108/Real-Time-Drowsiness-Detectio
 
 Bước 2. Tạo môi trường ảo
 
-Tải và cài đặt virtualenv.
-
 ```
-pip install virtualenv
-```
-
-Tạo môi trường ảo trong Python 3.
-
-```
- virtualenv -p C:\Python37\python.exe test_env
+python -m venv .venv
 ```
 
 Kích hoạt môi trường ảo.
@@ -28,13 +20,7 @@ Kích hoạt môi trường ảo.
 Đối với Windows:
 
 ```
-test_env\Scripts\Activate
-```
-
-Đối với Unix:
-
-```
-source test_env/bin/activate
+.\.venv\Scripts\activate   
 ```
 
 Bước 3. Cài đặt các thư viện cần thiết và cmake
